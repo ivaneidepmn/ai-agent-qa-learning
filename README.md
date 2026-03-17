@@ -122,7 +122,7 @@ Planned evolution of this laboratory includes:
 ### ✔️ Resposta correta inicial do agente
 ![Resposta correta](evidências/ai-agent-successful-response-concept-ai.png)
 
-### ❌ Erro conversacional inicial
+### ❌ Erro de conversação inicial
 ![Erro inicial](evidências/ai-agent-conversation-error-response.png)
 
 ### ❌ Erro repetido após instrução
@@ -136,7 +136,6 @@ Planned evolution of this laboratory includes:
 
 ### ❌ Falha após variação de contexto
 ![Erro variação contexto](evidências/erro de variação de contexto do agente de IA.png)
-
 ## 👩‍💻 Author
 
 **Ivaneide Nascimento**  
