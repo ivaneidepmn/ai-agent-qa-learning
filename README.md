@@ -1,106 +1,126 @@
-# 🤖 AI Agent Conversational Testing Lab
+# 🤖 AI Conversational Agent Testing Lab
 
-Projeto prático de estudo e exploração de testes de qualidade em agentes conversacionais com Inteligência Artificial.
+Practical laboratory project focused on quality engineering, exploratory testing and behavioral analysis of conversational AI agents.
 
-Este projeto foi desenvolvido com o objetivo de compreender o comportamento de agentes de IA baseados em chat, identificar riscos de qualidade, analisar falhas de resposta e documentar cenários reais de teste exploratório.
-
----
-
-## 🎯 Objetivo
-
-Explorar na prática como agentes de IA respondem a interações humanas, avaliando:
-
-- estabilidade conversacional  
-- consistência de respostas  
-- controle de contexto  
-- recuperação após falhas  
-- experiência do usuário  
-- riscos em fluxos automatizados de atendimento  
-
-Este estudo possui relação direta com cenários reais de mercado, como:
-
-- chatbots corporativos  
-- agentes de atendimento digital  
-- integrações com CRM (ex: Salesforce)  
-- automação de serviços públicos  
-- agentes inteligentes via WhatsApp  
+This repository documents real testing scenarios executed during hands-on experimentation with AI conversational assistants, aiming to evaluate response stability, contextual reasoning, failure patterns and overall user experience in intelligent systems.
 
 ---
 
-## 🧠 Conceitos estudados
+## 🎯 Project Purpose
 
-- Inteligência Artificial  
-- IA Generativa  
-- Agentes de IA  
-- Arquitetura RAG (Retrieval Augmented Generation)  
-- Modelos de linguagem  
-- Interação humano-IA  
-- Testes exploratórios em sistemas inteligentes  
+The main objective of this project is to investigate how AI agents behave in real conversational flows, simulating situations commonly found in corporate environments such as digital customer service, CRM integrations and automated support channels.
 
----
+The study focuses on evaluating:
 
-## 🧪 Cenários de Teste Exploratório
+- conversational stability  
+- response consistency  
+- contextual memory handling  
+- recovery after failure states  
+- usability and user trust perception  
+- risks in automated decision flows  
 
-### ✔️ Teste de controle de resposta
-- Solicitação de resposta em 1 frase  
-- Solicitação de resposta em número limitado de linhas  
+This experimentation is directly aligned with real-world scenarios including:
 
-### ✔️ Teste de consistência conversacional
-- Perguntas sequenciais sobre o mesmo tema  
-- Mudança de contexto durante a interação  
-
-### ✔️ Teste de falha do agente
-- Erro genérico repetido  
-- Travamento do agente após múltiplas instruções  
-
-### ✔️ Teste de recuperação
-- Reinício da sessão  
-- Validação de funcionamento após refresh  
-
-### ✔️ Teste de qualidade de conteúdo
-- Identificação de erros conceituais  
-- Erros ortográficos gerados pela IA  
-- Respostas duplicadas  
+- enterprise chatbots  
+- digital service agents  
+- CRM platforms (e.g. Salesforce environments)  
+- public service automation portals  
+- messaging platform assistants (e.g. WhatsApp automation)  
 
 ---
 
-## 🐞 Exemplos de Bugs Identificados
+## 🧠 Technical Concepts Covered
 
-- Agente entra em estado de erro permanente após sequência de comandos  
-- Perda de contexto conversacional  
-- Respostas parcialmente imprecisas  
-- Problemas de usabilidade na continuidade do atendimento  
-- Necessidade de reset manual da sessão  
-
----
-
-## 💡 Insights de Qualidade
-
-Agentes de IA aplicados em contextos reais de negócio podem impactar diretamente:
-
-- confiança do usuário  
-- eficiência do atendimento  
-- estabilidade de integrações  
-- reputação institucional  
-- tomada de decisão automatizada  
-
-A atuação de QA em soluções com IA exige visão sistêmica, análise de risco e validação contínua de comportamento inteligente.
+- Artificial Intelligence fundamentals  
+- Generative AI behavior  
+- Conversational agent interaction patterns  
+- Prompt response conditioning  
+- Context persistence analysis  
+- Exploratory testing strategies in intelligent systems  
+- Human-AI interaction quality risks  
 
 ---
 
-## 🚀 Próximos passos do estudo
+## 🧪 Exploratory Testing Scenarios
 
-- automação de testes em fluxos conversacionais  
-- testes de integração com APIs  
-- testes em agentes conectados a CRM  
-- análise de performance em IA  
-- validação de prompts e regras de negócio  
+### ✔ Response Control Testing
+- constrained response requests (single sentence)
+- limited output formatting validation
+- instruction-driven behavioral change observation
+
+### ✔ Conversational Consistency Testing
+- sequential questioning within same topic
+- contextual shift simulation during interaction
+- semantic continuity validation
+
+### ✔ Agent Failure Testing
+- repeated generic error responses
+- degraded response state after multiple commands
+- conversation breakdown scenarios
+
+### ✔ Recovery Testing
+- session reset validation
+- functional recovery after refresh
+- behavioral reinitialization observation
+
+### ✔ Content Quality Testing
+- conceptual accuracy verification
+- language coherence issues
+- duplicated response detection
+- response reliability perception
 
 ---
 
-## 👩‍💻 Autora
+## 🐞 Identified Quality Risks
 
-Ivaneide Nascimento  
-QA Engineer | Testes Exploratórios | Automação | Qualidade em Sistemas com IA  
+During exploratory execution, the following potential defects were observed:
 
-Projeto desenvolvido como prática de evolução profissional em Quality Engineering aplicada à Inteligência Artificial.
+- persistent agent error state after command sequence  
+- conversational context loss  
+- partially inaccurate conceptual responses  
+- degraded user experience due to interruption patterns  
+- manual session reset dependency  
+
+These risks demonstrate the importance of structured quality engineering approaches when validating AI-driven systems in production environments.
+
+---
+
+## 📊 Quality Engineering Insights
+
+Conversational AI solutions can directly impact:
+
+- user confidence and engagement  
+- operational efficiency in support flows  
+- reliability of integrated digital ecosystems  
+- institutional reputation  
+- automated decision credibility  
+
+QA professionals working with AI systems must combine:
+
+- exploratory mindset  
+- risk-based testing strategies  
+- behavioral analysis capability  
+- system integration awareness  
+- continuous validation practices  
+
+---
+
+## 🚀 Future Study Roadmap
+
+Planned evolution of this laboratory includes:
+
+- conversational flow test automation  
+- API integration testing scenarios  
+- CRM-connected AI validation strategies  
+- AI performance and latency analysis  
+- prompt engineering validation techniques  
+- intelligent agent regression testing design  
+
+---
+
+## 👩‍💻 Author
+
+**Ivaneide Nascimento**  
+Quality Assurance Engineer | Exploratory Testing | Test Automation | AI Quality Engineering  
+
+This project represents a continuous professional development initiative focused on applying modern quality engineering practices to Artificial Intelligence solutions and conversational platforms.
