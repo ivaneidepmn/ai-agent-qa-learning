@@ -117,6 +117,25 @@ Planned evolution of this laboratory includes:
 - intelligent agent regression testing design  
 
 ---
+## 📸 Evidências de Testes Exploratórios
+
+### ✔️ Resposta correta inicial do agente
+![Resposta correta](evidências/ai-agent-successful-response-concept-ai.png)
+
+### ❌ Erro conversacional inicial
+![Erro inicial](evidências/ai-agent-conversation-error-response.png)
+
+### ❌ Erro repetido após instrução
+![Erro repetido](evidências/ai-agent-erro-repetido-após-instrução.png)
+
+### ❌ Estado de erro após múltiplas instruções
+![Erro múltiplas instruções](evidências/estado de erro de múltiplas instruções do agente de IA.png)
+
+### ❌ Erro persistente após múltiplos prompts
+![Erro persistente](evidências/ai-agent-persistent-error-after-multiple-prompts.png)
+
+### ❌ Falha após variação de contexto
+![Erro variação contexto](evidências/erro de variação de contexto do agente de IA.png)
 
 ## 👩‍💻 Author
 
