@@ -119,18 +119,23 @@ Planned evolution of this laboratory includes:
 ---
 ## 📸 Evidências de Testes Exploratórios
 
-### ✔️ Resposta correta inicial do agente
+### ✅ Resposta correta inicial do agente
 ![Resposta correta](evidências/ai-agent-successful-response-concept-ai.png)
 
+### ❌ Erro de conversa inicial
 ![Erro inicial](evidências/ai-agent-conversation-error-response.png)
 
+### ❌ Erro repetido após instrução
 ![Erro repetido](evidências/ai-agent-repeated-error-after-instruction.png)
 
+### ❌ Estado de erro após múltiplas instruções
 ![Erro múltiplas instruções](evidências/ai-agent-multiple-instruction-error-state.png)
 
+### ❌ Erro persistente após vários prompts
 ![Erro persistente](evidências/ai-agent-persistent-error-after-multiple-prompts.png)
 
-![Erro variação de contexto](evidências/ai-agent-context-variation-error.png)
+### ❌ Falha após variação de contexto
+![Erro variação contexto](evidências/ai-agent-context-variation-error.png)
 
 ## 👩‍💻 Author
 
